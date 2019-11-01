@@ -1,0 +1,15 @@
+header {
+    background-color: #000;
+}
+
+header .brand-logo {
+    width: 60px;
+    color: white;
+    position: relative;
+    left: 10%;
+}
+
+header .brand-logo>svg {
+    width: 80px;
+    fill: #00FFFF;
+}

@@ -1,0 +1,32 @@
+.section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.section h4 {
+    text-transform: uppercase;
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+.section p {
+    margin: 0;
+    line-height: 16px;
+}
+
+.counter>span {
+    font-size: 32px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00FFFF;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+}
